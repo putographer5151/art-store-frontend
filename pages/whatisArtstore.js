@@ -42,38 +42,38 @@ const whatisArtstore = () => {
               <div className="w-full md:w-460 ml-0 flex flex-wrap items-center justify-center gap-4 gap-y-4 md:gap-y-14 md:gap-14 mt-[50px] md:mt-[0px]">
                 <div className="w-32 h-36 md:h-[250px] md:w-[200px] p-4 bg-white/[0.09] backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg">
                   <img
-                    className="w-40 h-40 md:w-[300px] md:h-[300px] object-contain rounded-3xl trasform overflow-hidden duration-200 md:hover:scale-125"
+                    className="w-40 h-40 md:w-[300px] md:h-[300px] object-contain rounded-3xl trasform overflow-hidden duration-200 hover:scale-125"
                     alt=""
                     src="/TJ8.jpg"
                   />
-                  <p className="text-xs lg:text-sm uppercase font-md md:font-semibold text-white absolute left-0 right-0 text-center bottom-7 trasform overflow-hidden duration-200 md:hover:scale-110 hover:text-white">
+                  <p className="text-xs lg:text-sm uppercase font-md font-semibold text-white absolute left-0 right-0 text-center bottom-7 trasform overflow-hidden duration-200 md:hover:scale-110 hover:text-white">
                     3D printed
                   </p>
                 </div>
                 <div className="w-32 h-36 md:h-[250px] md:w-[200px] p-4 bg-white/[0.09] backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg">
                   <img
-                    className="w-40 h-40 md:w-[300px] md:h-[300px] object-contain rounded-3xl trasform overflow-hidden duration-200 md:hover:scale-125"
+                    className="w-40 h-40 md:w-[300px] md:h-[300px] object-contain rounded-3xl trasform overflow-hidden duration-200 hover:scale-125"
                     alt=""
                     src="/onwall.png"
                   />
                 </div>
                 <div className="w-32 h-36 md:h-[250px] md:w-[200px] p-4 bg-white/[0.09] backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg">
                   <img
-                    className="w-40 h-40 md:w-[300px] md:h-[300px] object-contain rounded-3xl trasform overflow-hidden duration-200 md:hover:scale-125"
+                    className="w-40 h-40 md:w-[300px] md:h-[300px] object-contain rounded-3xl trasform overflow-hidden duration-200 hover:scale-125"
                     alt=""
                     src="/frames.jpg"
                   />
-                  <p className="text-xs lg:text-sm uppercase font-md md:font-semibold text-white absolute left-0 right-0 text-center bottom-7 trasform overflow-hidden duration-200 md:hover:scale-110 hover:text-white">
+                  <p className="text-xs lg:text-sm uppercase font-md font-semibold text-white absolute left-0 right-0 text-center bottom-7 trasform overflow-hidden duration-200 md:hover:scale-110 hover:text-white">
                     Frames
                   </p>
                 </div>
                 <div className="w-32 h-36 md:h-[250px] md:w-[200px] p-4 bg-white/[0.09] backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg">
                   <img
-                    className="w-40 h-40 md:w-[300px] md:h-[300px] object-contain rounded-3xl trasform overflow-hidden duration-200 md:hover:scale-125"
+                    className="w-40 h-40 md:w-[300px] md:h-[300px] object-contain rounded-3xl trasform overflow-hidden duration-200 hover:scale-125"
                     alt=""
                     src="/instruction.jpg"
                   />
-                  <p className="text-xs lg:text-sm uppercase font-sm md:font-md md:font-semibold text-white absolute left-0 right-0 text-center bottom-7 trasform overflow-hidden duration-200 md:hover:scale-110 hover:text-white">
+                  <p className="text-[10px] lg:text-sm uppercase font-sm md:font-md font-semibold text-white absolute left-0 right-0 text-center bottom-6 md:bottom-7 trasform overflow-hidden duration-200 md:hover:scale-110 hover:text-white">
                     instruction
                   </p>
                 </div>
@@ -83,7 +83,7 @@ const whatisArtstore = () => {
         </div>
         <img src="/about2.jpg" />
         <div className="opacity-90">
-          <div className="text-white text-center uppercase font-semibold py-5 text-[20px] md:text-[40px] mt-[30px] md:mt-[50px]">
+          <div className="text-white text-center uppercase font-semibold py-5 text-[30px] md:text-[40px] mt-[30px] md:mt-[50px]">
             Mission
           </div>
           <div className="text-white text-center px-5 md:px-[400px] md:mt-1">
@@ -100,7 +100,7 @@ const whatisArtstore = () => {
             <div>
               <img
                 src="mission1.jpg"
-                className="w-[90px] h-[90px] ml-[100px] md:ml-[150px]"
+                className="w-[90px] h-[90px] ml-[80px] md:ml-[150px]"
               />
               <div className="uppercase mt-1 font-semibold">
                 Magnet Wall mount
@@ -110,7 +110,7 @@ const whatisArtstore = () => {
             <div>
               <img
                 src="mission2.jpg"
-                className="w-[90px] h-[90px] ml-[100px] md:ml-[150px]"
+                className="w-[90px] h-[90px] ml-[80px] md:ml-[150px]"
               />
               <div className="uppercase mt-1 font-semibold">CUSTOM ORDERS</div>
               Make Posters of Your Choice
@@ -118,7 +118,7 @@ const whatisArtstore = () => {
             <div>
               <img
                 src="mission3.jpg"
-                className="w-[90px] h-[90px] ml-[100px] md:ml-[150px]"
+                className="w-[90px] h-[90px] ml-[80px] md:ml-[150px]"
               />
               <div className="uppercase mt-1 font-semibold">FREE SHIPPING</div>
               you get FREE SHIPPING above $20
