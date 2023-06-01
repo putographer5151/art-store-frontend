@@ -5,9 +5,9 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white md:pt-10 pb-3 ">
-            <Wrapper className="flex justify-between flex-col  gap-[10px]">
-                <hr className="opacity-40 mr-[20px] ml-[20px]"/>
+        <footer className="bg-black text-white md:pt-10 pb-3">
+            <Wrapper className="flex justify-between flex-col">
+                <hr className="opacity-40 mr-[10px] ml-[10px]"/>
                 {/* RIGHT START */}
                 <div className="flex gap-4 justify-center mt-12">
                     <div onClick = {() => window.open('https://instagram.com/visualsof3d', '_blank')} className="w-10 h-10 rounded-full bg-white/[0.5] flex items-center justify-center text-black hover:bg-white/[0.9] cursor-pointer hover:scale-110 trasform overflow-hidden duration-200">
