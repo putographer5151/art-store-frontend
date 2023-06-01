@@ -92,7 +92,7 @@ const Cart = () => {
                     {/* Button start */}
                     <button 
                         onClick={handlePayment} 
-                        className='w-full py-4 rounded-full bg-blue-700 text-white text-xl font-semibold transaction-transform active:scale-95 mb-3 flex items-center gap-2 justify-center'
+                        className='w-full py-4 rounded-full bg-blue-600 text-white text-xl font-semibold transaction-transform active:scale-95 mb-3 flex items-center gap-2 justify-center'
                     >
                         Checkout
                         {loading && <img src="/spinner.svg" />}
